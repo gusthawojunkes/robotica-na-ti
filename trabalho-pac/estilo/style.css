@@ -1,0 +1,36 @@
+/* 
+
+Paleta usada:
+
+#9EBBBD - Cinza Escuro
+#00A9BB - Azul esverdeado
+#E4FEFF - Azul claro
+#E6F4F1 - Cinza claro
+
+Fonte Usada:
+
+font-family: 'Source Code Pro', monospace;
+
+*/
+
+#navbar-principal{
+    list-style-type: none;
+    overflow: hidden;
+    background-color:#00A9BB;
+    margin: 0;
+    padding: 0;
+}
+.li-nav, a{
+    float: left;
+    text-align: center;
+    text-decoration: none !important;
+    display: block;
+    padding: 15px 20px;
+    color: #E6F4F1;
+    font-family: 'Sen', sans-serif;
+    
+}
+.li-nav:hover, a:hover{
+    background-color: #E4FEFF;
+    color: #00A9BB; 
+}
