@@ -12,7 +12,7 @@ Fonte Usada:
 font-family: 'Source Code Pro', monospace;
 
 */
-
+/*Construindo a navbar*/
 #navbar-principal{
     list-style-type: none;
     overflow: hidden;
@@ -34,6 +34,9 @@ font-family: 'Source Code Pro', monospace;
     background-color: #E4FEFF;
     color: #00A9BB; 
 }
+/*Navbar terminada*/
+
+/*Grade de itens do index.html*/
 .grade-item{
     padding-top: 50px;
     text-align: center;
@@ -41,12 +44,7 @@ font-family: 'Source Code Pro', monospace;
     width: 100%;
     grid-template-columns: 50% 50%;
 }
-/* #oqeti-img{
-    width: 100%;
-}
-#oqerobo-img{
-    width: 100%;
-} */
+/*Cor de fundo*/
 body{
     background-color: #E6F4F1;
 }
