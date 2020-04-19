@@ -48,3 +48,6 @@ font-family: 'Source Code Pro', monospace;
 body{
     background-color: #E6F4F1;
 }
+#opcoes{
+    cursor: pointer;
+}
