@@ -34,3 +34,19 @@ font-family: 'Source Code Pro', monospace;
     background-color: #E4FEFF;
     color: #00A9BB; 
 }
+.grade-item{
+    padding-top: 50px;
+    text-align: center;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+}
+/* #oqeti-img{
+    width: 100%;
+}
+#oqerobo-img{
+    width: 100%;
+} */
+body{
+    background-color: #E6F4F1;
+}
