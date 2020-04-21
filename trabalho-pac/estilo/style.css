@@ -20,7 +20,7 @@ font-family: 'Source Code Pro', monospace;
     margin: 0;
     padding: 0;
 }
-.li-nav, a{
+.li-nav, .a-nav{
     float: left;
     text-align: center;
     text-decoration: none !important;
@@ -30,14 +30,14 @@ font-family: 'Source Code Pro', monospace;
     font-family: 'Sen', sans-serif;
     
 }
-.li-nav:hover, a:hover{
+.li-nav:hover, .a-nav:hover{
     background-color: #E4FEFF;
     color: #00A9BB; 
 }
 /*Navbar terminada*/
 
 /*Grade de itens do index.html*/
-.grade-item{
+.grade-item-index{
     padding-top: 50px;
     text-align: center;
     display: grid;
@@ -51,3 +51,32 @@ body{
 #opcoes{
     cursor: pointer;
 }
+.titulo-opc{
+    font-size: 1.5em;
+}
+/*Estilizando as opções de clique do index.html*/
+#oqerobo-click, #oqeti-click{
+    text-decoration: none;
+    color: #000;
+}
+/*Grade de itens do ti.html*/
+.grid-ti{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+/*Estilizando a página ti.html*/
+#img-ti{
+    width: 100%;
+}
+#texto-ti{
+    padding: 50px;
+    text-align: left;
+    font-size: 1.8em;
+    
+}
+#fundo-texto{
+    color: #000;
+    padding: 20px 25px;
+    background-color: #9EBBBD;
+}
+/*Estilização do ti.html terminada*/
