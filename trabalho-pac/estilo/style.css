@@ -13,7 +13,13 @@ font-family: 'Source Code Pro', monospace;
 
 */
 /*Construindo a navbar*/
+html, body{
+    margin: 0;
+    height: 100%;
+}
 #navbar-principal{
+    display: flex;
+    justify-content: center;
     list-style-type: none;
     overflow: hidden;
     background-color:#00A9BB;
@@ -28,7 +34,6 @@ font-family: 'Source Code Pro', monospace;
     padding: 15px 20px;
     color: #E6F4F1;
     font-family: 'Sen', sans-serif;
-    
 }
 .li-nav:hover, .a-nav:hover{
     background-color: #E4FEFF;
@@ -61,23 +66,34 @@ body{
 }
 /*Grade de itens do ti.html*/
 .grid-ti{
-    display: grid;
-    grid-template-columns: 30% 70%;
+    display: flex;
+    height: 100%;
 }
 /*Estilizando a página ti.html*/
-#img-ti{
-    width: 100%;
+#titulo-ti-robo{
+    text-align: center;
+    padding: 50px 20px;
+}
+#imagem-ti{
+    width: 30%;
+    background-image: url("../imagens/oqeti-pb.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
 }
 #texto-ti{
+    width: 70%;
     padding: 50px;
     text-align: left;
-    font-size: 1.8em;
+    font-size: 1.3em;
     
 }
 #fundo-texto{
     color: #000;
     padding: 20px 25px;
     background-color: #9EBBBD;
+}
+.lista-texto{
+    list-style-type: disc;
 }
 /*Estilização do ti.html terminada*/
 
@@ -89,7 +105,10 @@ body{
 
 /*Estilizando a página robotica.html*/
 #img-robo{
-    width: 100%;
+    width: 30%;
+    background-image: url("../imagens/oqerobo-pb.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
 }
 #texto-robo{
     padding: 50px;
@@ -97,9 +116,20 @@ body{
     font-size: 1.8em;
     
 }
-#fundo-texto{
+.fundo-texto{
     color: #000;
     padding: 20px 25px;
     background-color: #9EBBBD;
 }
 /*Estilização do ti.html terminada*/
+
+
+/*Estilizando a página robotica-educacao.html*/
+#titulo-robo-edu{
+    padding-top: 50px; 
+    text-align: center;
+}
+#imagem-robo-edu{
+    width: 100%;
+}
+/*Estilização do robotica-educacao.html terminada*/
