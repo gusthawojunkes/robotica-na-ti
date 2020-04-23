@@ -64,10 +64,11 @@ body{
     text-decoration: none;
     color: #000;
 }
-/*Grade de itens do ti.html*/
-.grid-ti{
+/*Grade de itens*/
+.grid{
     display: flex;
     height: 100%;
+    grid-template-columns: 40% 60%;
 }
 /*Estilizando a página ti.html*/
 #titulo-ti-robo{
@@ -81,7 +82,7 @@ body{
     background-repeat: no-repeat;
 }
 #texto-ti{
-    width: 70%;
+    width: 100%;
     padding: 50px;
     text-align: left;
     font-size: 1.3em;
@@ -97,14 +98,8 @@ body{
 }
 /*Estilização do ti.html terminada*/
 
-/*Grade de itens do robotica.html*/
-.grid-robo{
-    display: grid;
-    grid-template-columns: 30% 70%;
-}
-
 /*Estilizando a página robotica.html*/
-#img-robo{
+#imagem-robo{
     width: 30%;
     background-image: url("../imagens/oqerobo-pb.jpg");
     background-size: auto 100%;
@@ -122,7 +117,6 @@ body{
     background-color: #9EBBBD;
 }
 /*Estilização do ti.html terminada*/
-
 
 /*Estilizando a página robotica-educacao.html*/
 #titulo-robo-edu{
