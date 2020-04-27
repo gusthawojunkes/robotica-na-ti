@@ -118,6 +118,7 @@ body{
 #grid-seymour-papert{
     display: grid;
     grid-template-columns: 40% 60%;
+    padding-bottom: 30px;
     
 }
 #foto-seymour{
