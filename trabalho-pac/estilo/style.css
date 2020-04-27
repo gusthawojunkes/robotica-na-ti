@@ -100,11 +100,9 @@ body{
     padding: 50px 50px; 
     text-align: center;
 }
-#imagem-robo-edu img{
+#imagem-robo-edu{
     padding-left: 20px;
-    padding-right: 50px;
-    width: 1400px;
-    height: 500px;
+    padding-right: 20px;
 }
 #img2-robo-edu{
     padding-left: 20px;
