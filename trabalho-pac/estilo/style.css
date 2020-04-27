@@ -64,66 +64,66 @@ body{
     text-decoration: none;
     color: #000;
 }
-/*Grade de itens*/
-.grid{
-    display: flex;
-    height: 100%;
-    grid-template-columns: 40% 60%;
+.grid-ti-robo{
+    display: grid;
+    grid-template-columns: 30% 70%;
 }
-/*Estilizando a página ti.html*/
-#titulo-ti-robo{
-    text-align: center;
-    padding: 50px 20px;
-}
-#imagem-ti{
-    width: 30%;
-    background-image: url("../imagens/oqeti-pb.jpg");
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-}
-#texto-ti{
+/*Estilizando as páginas ti.html e robotica.html*/
+
+.texto-ti-robo{
     width: 100%;
     padding: 50px;
     text-align: left;
-    font-size: 1.3em;
-    
+    font-size: 1.3em;   
 }
-#fundo-texto{
-    color: #000;
-    padding: 20px 25px;
-    background-color: #9EBBBD;
-}
-.lista-texto{
-    list-style-type: disc;
-}
-/*Estilização do ti.html terminada*/
 
-/*Estilizando a página robotica.html*/
-#imagem-robo{
-    width: 30%;
-    background-image: url("../imagens/oqerobo-pb.jpg");
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-}
-#texto-robo{
-    padding: 50px;
-    text-align: left;
-    font-size: 1.8em;
-    
-}
 .fundo-texto{
     color: #000;
     padding: 20px 25px;
     background-color: #9EBBBD;
+    border-radius: 5px;
 }
-/*Estilização do ti.html terminada*/
+#titulo-ti-robo{
+    text-align: center;
+    padding: 50px 20px;
+}
+.prox-pag{
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+/*Estilização do ti.html e robotica.html terminada*/
 
 /*Estilizando a página robotica-educacao.html*/
 #titulo-robo-edu{
-    padding-top: 50px; 
+    padding: 50px 50px; 
     text-align: center;
 }
-#imagem-robo-edu{
-    width: 100%;
+#imagem-robo-edu img{
+    padding-left: 20px;
+    padding-right: 50px;
+    width: 1400px;
+    height: 500px;
+}
+#img2-robo-edu{
+    padding-left: 20px;
+}
+#titulos{
+    padding-top: 50px;
+    text-align: center;
+}
+#born-d{
+    background-color: #000;
+    color: #fff;
+}
+#grid-seymour-papert{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    
+}
+#foto-seymour{
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
 /*Estilização do robotica-educacao.html terminada*/
