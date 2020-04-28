@@ -2,10 +2,9 @@
 
 Paleta usada:
 
-#9EBBBD - Cinza Escuro
-#00A9BB - Azul esverdeado
-#E4FEFF - Azul claro
-#E6F4F1 - Cinza claro
+#214D5F - Azul ciano
+#ADAFB9 - Cinza Escuro
+#D7D8DD - Cinza claro
 
 Fonte Usada:
 
@@ -22,7 +21,7 @@ html, body{
     justify-content: center;
     list-style-type: none;
     overflow: hidden;
-    background-color:#00A9BB;
+    background-color:#214D5F;
     margin: 0;
     padding: 0;
 }
@@ -32,12 +31,12 @@ html, body{
     text-decoration: none !important;
     display: block;
     padding: 15px 20px;
-    color: #E6F4F1;
+    color: #D7D8DD;
     font-family: 'Sen', sans-serif;
 }
 .li-nav:hover, .a-nav:hover{
     background-color: #E4FEFF;
-    color: #00A9BB; 
+    color: #214D5F; 
 }
 /*Navbar terminada*/
 
@@ -51,7 +50,7 @@ html, body{
 }
 /*Cor de fundo*/
 body{
-    background-color: #E6F4F1;
+    background-color: #D7D8DD;
 }
 #opcoes{
     cursor: pointer;
@@ -80,7 +79,7 @@ body{
 .fundo-texto{
     color: #000;
     padding: 20px 25px;
-    background-color: #9EBBBD;
+    background-color: #ADAFB9;
     border-radius: 5px;
 }
 #titulo-ti-robo{
@@ -92,6 +91,10 @@ body{
     display: flex;
     justify-content: flex-end;
     text-align: right;
+}
+.imagem-ti-robo{
+    padding-top: 50px;
+    padding-left: 20px;
 }
 /*Estilização do ti.html e robotica.html terminada*/
 
@@ -106,6 +109,7 @@ body{
 }
 #img2-robo-edu{
     padding-left: 20px;
+    padding-bottom: 50px;
 }
 #titulos{
     padding-top: 50px;
@@ -122,7 +126,10 @@ body{
     
 }
 #foto-seymour{
+    padding-left: 20px;
     padding-top: 25px;
     padding-bottom: 50px;
 }
 /*Estilização do robotica-educacao.html terminada*/
+/*Estilizando a página conclusao.html*/
+/*Estilização conclusao.html terminada*/
