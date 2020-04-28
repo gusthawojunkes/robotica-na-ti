@@ -136,7 +136,7 @@ body{
 /*Estilizando a página conclusao.html*/
 
 #conteudo{
-    background-image: url("./imagens/fundo-conclusao.jpg");
+    /* background-image: url("./imagens/fundo-conclusao.jpg"); */
     background-size: 100% auto;
     background-repeat: no-repeat;
     display: flex;
