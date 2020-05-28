@@ -179,3 +179,37 @@ body{
     align-self: center;
 }
 /*Estilização conclusao.html terminada*/
+/*Estilizando da grade dos posts*/
+#grid-posts{
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#titulo-posts{
+    text-align: center;
+    font-size: 1.34em;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+#titulo-posts-2{
+    text-align: center;
+    font-size: 1.34em;
+    padding-top: 50px;
+}
+#link-posts{
+    text-decoration: none;
+    color: #D7D8DD; 
+    width: 10em;
+    background-color: #214D5F;
+}
+#conteudo-links{
+    text-align: center;
+}
+/*Terminada a estilização da grade dos posts*/
+/*Estilização da página dos posts*/
+.titulo-pag-posts{
+    padding-top: 50px;
+    text-align: center;
+}
+/*Terminada a estilização da página dos posts*/
