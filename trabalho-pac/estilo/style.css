@@ -210,6 +210,15 @@ body{
 /*Estilização da página dos posts*/
 .titulo-pag-posts{
     padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
+}
+.conteudo-posts{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.code-posts{
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
 /*Terminada a estilização da página dos posts*/
