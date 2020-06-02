@@ -185,6 +185,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    padding-bottom: 20px;
 }
 #titulo-posts{
     text-align: center;
